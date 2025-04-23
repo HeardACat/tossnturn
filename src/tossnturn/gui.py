@@ -1,7 +1,6 @@
 from timeit import default_timer
 import dearpygui.dearpygui as dpg
 from pynput.mouse import Controller
-import time
 
 EPS = 1
 MOUSE = Controller()

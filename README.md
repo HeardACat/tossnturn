@@ -17,3 +17,13 @@ To use:
 tossnturn  # for a GUI
 tossnturn cli  # if no gui interaction is needed
 ```
+
+## Standalone Mode
+
+`tossnturn` can be run standalone using
+
+```sh
+uv run scripts/tossnturn.py
+```
+
+This script is managed using `uv init --script` mode
